@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+=<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
@@ -40,8 +40,6 @@
   <div id="output">저장된 텍스트가 여기에 표시됩니다.</div>
 
   <script>
-    // ✅ 여기에 너의 API 서버 주소 넣어줘!
-    // 예: ngrok 쓰면 'https://xxxxxx.ngrok.io'
     const API_BASE = "https://587d-203-228-12-60.ngrok-free.app";
 
     function saveText() {
@@ -72,7 +70,6 @@
       document.getElementById("textInput").value = "";
     }
 
-    // 페이지 로딩 시 저장된 텍스트 자동 로드
     window.onload = loadText;
   </script>
 </body>
